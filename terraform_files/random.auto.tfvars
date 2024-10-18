@@ -1,7 +1,7 @@
 
 
-length1 = 75
+ length1 = 16
 
-special1 = false
+ special1 = false
 
-override1 = "some values from random auto .tfvars variable reference"
+ override1 = "some values from random auto .tfvars variable reference"

@@ -8,17 +8,17 @@ variable "map_var1" {
 
 
 variable "tuple_str1" {
-  type = tuple([string,number,list(any)])
+  type = tuple([string, number, list(any)])
 
 }
 
 variable "obj_str_cont1" {
   type = object({
-	filename1 = string
-	id	= number
-	name 	= string
-	address = list(string)
-})  
+    filename1 = string
+    id        = number
+    name      = string
+    address   = list(string)
+  })
 }
 
 resource "local_file" "complex_data1" {
